@@ -6,6 +6,8 @@
 #include <sys/wait.h>
 #include <stdlib.h>
 
+//back up directory file
+
 // 2.	The dashboard directory content should be backed up every night.
 void backup_dashboard(void) {
     //create a backup directory if it doesn't exist
